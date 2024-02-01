@@ -1,12 +1,10 @@
-import { useEffec, useState } from "react";
-import { useParams } from "react-router-dom";
-import LinkButton from "../components/LinkButton";
+// import { useEffect, useState } from "react";
+// import LinkButton from "../components/LinkButton";
 
 export default function HomePage() {
-    const params = useParams();
-    let id = params.id;
 
     // state variables for the data to be loaded into from the API
+    // [characters_list, set_characters_list] = useState([])
 
 
     // gets the information from the API

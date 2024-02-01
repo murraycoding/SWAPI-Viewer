@@ -2,7 +2,7 @@ import { useEffec, useState } from "react";
 import { useParams } from "react-router-dom";
 import LinkButton from "../components/LinkButton";
 
-export Default function CharacterPage() {
+export default function CharacterPage() {
     const params = useParams();
     let id = params.id;
 
@@ -19,6 +19,6 @@ export Default function CharacterPage() {
 
     // return component
     return (
-        <p>Change this component.</p>
+        <p>This is the character page.</p>
     )
 }

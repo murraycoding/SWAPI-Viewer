@@ -2,7 +2,7 @@ import { useEffec, useState } from "react";
 import { useParams } from "react-router-dom";
 import LinkButton from "../components/LinkButton";
 
-export Default function HomePage() {
+export default function HomePage() {
     const params = useParams();
     let id = params.id;
 
@@ -19,6 +19,6 @@ export Default function HomePage() {
 
     // return component
     return (
-        <p>Change this component.</p>
+        <p>This is the home page.</p>
     )
 }
